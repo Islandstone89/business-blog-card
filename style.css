@@ -110,6 +110,7 @@ textarea:not([rows]) {
     --clr-dark-blue: #111729;
     --clr-grey: #677489;
 
+    --clr-light-grey: #d6dce6;
     --clr-light-blue: #abd2de;
 
     /* Typography */
@@ -152,9 +153,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100svh;
-    padding: 1rem;
+    padding: 4rem 1rem;
     font-family: var(--ff-lato);    
-    background-color: var(--clr-light-blue);
+    background-color: var(--clr-light-grey);
     line-height: 1.5;
 }
 
@@ -183,6 +184,7 @@ body {
 .card__content__text {
     --flow-space: 1em;
     font-weight: var(--fw-);
+    color: var(--clr-grey);
 }
 
 .card__ruler {
@@ -199,7 +201,7 @@ body {
 
 .card__author__image {
     border-radius: 50%;
-    border: 5px solid var(--clr-light-blue);
+    border: 5px solid var(--clr-light-grey);
     width: 15%;
 }
 
